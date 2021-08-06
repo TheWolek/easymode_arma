@@ -30,6 +30,7 @@ class CfgFunctions
             file = "\easyMode\misc";
             class god {};
             class heal {};
+            class repair {};
         };
 	};
 };

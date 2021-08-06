@@ -19,6 +19,14 @@ switch (_this select 1) do {
 		};
 	};
 
+	case 48: {//B key
+		if (_ctrl && vehicle player != player) then {
+			hint "ctrl B";
+			[] spawn TW_fnc_repair;
+			_handled = true;
+		};
+	};
+
 };
 
 _handled;
