@@ -16,7 +16,7 @@ class CfgFunctions
 	{
         class handler 
         {
-            class keyHandlerInit {postInit = 1;};
+            class init {postInit = 1;};
             class keyHandler {};
         };
 
