@@ -14,16 +14,16 @@ class CfgFunctions
 {
 	class TW
 	{
-        class handler 
-        {
-            class init {postInit = 1;};
-            class keyHandler {};
-        };
-
-		class functions
+        class handler
 		{
-			class god {};
-            class heal {};
+			class keyHandlerInit {postInit = 1;};
+            class keyHandler {};
 		};
+
+        class misc
+        {
+            class god {};
+            class heal {};
+        };
 	};
 };
