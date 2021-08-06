@@ -16,12 +16,18 @@ class CfgFunctions
 	{
         class handler
 		{
-			class keyHandlerInit {postInit = 1;};
-            class keyHandler {};
+			class keyHandlerInit {
+                file = "\easyMode\init.sqf";
+                postInit = 1;
+            };
+            class keyHandler {
+                file = "\easyMode\keyHandler.sqf";
+            };
 		};
 
         class misc
         {
+            file = "\easyMode\misc";
             class god {};
             class heal {};
         };
