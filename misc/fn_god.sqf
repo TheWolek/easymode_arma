@@ -2,8 +2,10 @@ hint format["var GODMODE_ENABLED = %1", str(player getVariable["GODMODE_ENABLED"
 
 if (player getVariable["GODMODE_ENABLED",false]) then {
 	player allowDamage true;
-	hint "godemode disabled";
+	player setVariable["GODMODE_ENABLED", false];
+	hint "godmode disabled";
 } else {
 	player allowDamage false;
-	hint "godemode enabled";
+	player setVariable["GODMODE_ENABLED", true];
+	hint "godmode enabled";
 };
