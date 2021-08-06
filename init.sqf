@@ -10,4 +10,5 @@ private ["_keyDown"];
 	private ["_keyDown"];
 	player setVariable["GODMODE_ENABLED", false];
 	_keyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call TW_fnc_keyHandler"];
+	hint "loaded";
 };
