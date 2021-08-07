@@ -16,12 +16,9 @@ class CfgFunctions
 	{
         class handler
 		{
-			class keyHandlerInit {
+			class ActionInit {
                 file = "\easyMode\init.sqf";
                 postInit = 1;
-            };
-            class keyHandler {
-                file = "\easyMode\keyHandler.sqf";
             };
 		};
 
