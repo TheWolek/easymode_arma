@@ -1,3 +1,3 @@
 player setDamage 0;
-[objNull, player] call ace_medical_fnc_treatmentAdvanced_fullHealLocal;
+[player] call ace_medical_treatment_fnc_fullHealLocal
 hint "you have been full healed";
